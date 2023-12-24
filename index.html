@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>About Me | Emily</title>
+
+    <link rel="stylesheet" href="website.css">
+  </head>
+  <body>
+    <div id="contentContainer">
+      <div id="navBar">
+        <a class="active" href="#home">About</a>
+        <a href="#workExperience">Work Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#forFun">Just for Fun</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div id="content">
+        <section id="home">
+          <img id="profile_pic" src="images/Emily.JPG" alt="Profile photo">
+          <div id="introText">
+            <img id="name" src="images/myName.png" alt="Profile photo">
+            <p>
+              Hi! I'm a B.S. candidate for Computer Science in the AI track at Stanford University. I was also a Course Assistant (TA) for
+              <a href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=ENGR%2040M:%20An%20Intro%20to%20Making:%20What%20is%20EE&academicYear=20222023"
+                 target="_blank">ENGR 40M</a>,
+              the largest Electrical Engineering course at Stanford. Outside of engineering, I dance with
+              <a href="https://cardinalballet.stanford.edu/"
+                 target="_blank">Cardinal Ballet Company</a>,
+              and am the company's Financial Officer.
+            </p>
+          </div>
+        </section>
+
+        <div class="space-before-line"></div>
+        <div class="line"></div>
+
+        <div id="siteBody">
+          <section id="workExperience">
+            <h1>Work Experience</h1>
+            <div class="resumeItem">
+              <div class="resumeItemText">
+                <p>NLP Research Assistant with Stanford Empirical Security Research Group</p>
+              </div>
+
+              <div class="date">
+                <p>Aug 2023 – present</p>
+              </div>
+            </div>
+
+            <div class="resumeItem">
+              <div class="resumeItemText">
+                <p>Intern at Meta (Facebook) University – Engineering</p>
+                <ul>
+                  <li>10-week paid summer internship in iOS development with Objective-C</li>
+                  <li>
+                    Created a course collaboration iOS app in 6 weeks
+                    (<a href="#coursily">details & demo video here</a>)
+                    <ul>
+                      <li>Uses Facebook SDK (OAuth, dynamic fetching from and posting to FB Group),
+                        caching posts, probability algorithm to recommend posts based on search history</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="date">
+                <p>Jun – Aug 2022</p>
+              </div>
+            </div>
+
+            <div class="resumeItem">
+              <div class="resumeItemText">
+                <p>Stanford Electrical Engineering Teaching Assistant (ENGR 40M)</p>
+                <ul>
+                  <li>One of 3-4 undergrad TAs (13 total) for Stanford’s largest EE course (150-200 students)</li>
+                  <li>Lead weekly 3-hour lab sections (5-12 students) – circuit-building and programming</li>
+                  <li>Gradescope (online grading tool) manager, main communicator with homework graders</li>
+                  <li>Hold weekly office hours, grade labs and exams, help students during and after lectures</li>
+                </ul>
+              </div>
+
+              <div class="date">
+                <p>Jan – Jun 2022</p>
+              </div>
+            </div>
+
+            <div class="resumeItem">
+              <div class="resumeItemText">
+                <p>Intern at Shibaura Institute of Technology</p>
+                <ul>
+                  <li>Conducted research in Materials Science and Engineering</li>
+                  <li>Researched the chemical and physical properties of metals such as iron and copper,
+                    materials suitable for use in cutlery and vehicles</li>
+                </ul>
+              </div>
+
+              <div class="date">
+                <p>Jun – Jul 2019</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="projects">
+            <h1>Projects</h1>
+            <div id="coursily" class="resumeItem">
+              <div class="resumeItemText">
+                <p>Coursily iOS App</p>
+                <ul>
+                  <li>
+                    Capstone Project from Meta University Internship for Engineering
+                    <ul>
+                      <li>Users can post and answer questions within selected course</li>
+                      <li>Significant integration of Facebook SDK – includes login through OAuth,
+                        dynamic fetching/caching of Facebook Group posts</li>
+                      <li>Uses a probability-based text similarity algorithm to recommend viewed posts
+                        to users based on posts that have been searched before</li>
+                      <li>Store data, such as viewed posts and course information, on Parse</li>
+                      <li> Code: <a href="https://github.com/emokabe/CapstoneProject" target="_blank">Link to Github</a></li>
+                      <li>
+                        Video Demo:
+                      </li>
+                      <iframe width="600" height="400"
+                        src="https://www.youtube.com/embed/16Y2Mc5Tihg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write;
+                          encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                      </iframe>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="date">
+                <p>Jul – Aug 2022 (6 weeks)</p>
+              </div>
+            </div>
+
+            <div id="otrio" class="resumeItem">
+              <div class="resumeItemText">
+                <p>OTrio board game in C++</p>
+                <ul>
+                  <li>
+                    Personal C++ Project completed during Winter Break of 2020
+                    <ul>
+                      <li>An advanced version of tic-tac-toe (rules described in video below)</li>
+                      <li>Incorporates 2 to 4 players, with any number of them being AI players</li>
+                      <li>Each AI players has a different "personality" – vary in offensiveness/defensiveness</li>
+                      <li>
+                        Video Demo:
+                      </li>
+                      <iframe width="600" height="400"
+                        src="https://www.youtube.com/embed/5EHVNMnEQ1w"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                      </iframe>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="date">
+                <p>Dec 2020</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="leadership">
+            <h1>Leadership Experience</h1>
+            <div class="resumeItem">
+              <div class="resumeItemText">
+                <p>
+                  Cardinal Ballet Company – Financial Coordinator
+                </p>
+                <ul>
+                  <li>Handle all funding, payments, and reimbursements for performances and events</li>
+                </ul>
+              </div>
+
+              <div class="date">
+                <p>Aug 2022 – present</p>
+              </div>
+            </div>
+
+            <div class="resumeItem">
+              <div class="resumeItemText">
+                <p>
+                  Cardinal Ballet Company – Marketing Coordinator
+                </p>
+                <ul>
+                  <li>Company webmaster (JavaScript, CSS, HTML) for announcements and dancer profiles</li>
+                  <li>Create and distribute show programs</li>
+                </ul>
+              </div>
+
+              <div class="date">
+                <p>Sep 2021 – Jun 2022</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="forFun">
+            <h1>Just for Fun</h1>
+            <div class="resumeItem">
+              <div class="resumeItemText">
+                <p>
+                  Solo variation from Cardinal Ballet Company's Sleeping Beauty production
+                </p>
+                <iframe width="600" height="400"
+                  src="https://www.youtube.com/embed/z0Gkj7FJR9g"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+
+              <div class="date">
+                <p>May 2022</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+      </div>
+
+      <div class="line"></div>
+      <div class="space-before-line"></div>
+
+      <section id="contact">
+        <div id="contactContents">
+          <h1>Contact</h1>
+          <p>To contact me, go to <a href="contact.html">this page</a>.</p>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="navBar.js"></script>
+  </body>
+</html>
