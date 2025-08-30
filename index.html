@@ -48,9 +48,11 @@
             <h1>Work Experience</h1>
             <div class="resumeItem">
               <div class="resumeItemText">
-                <p>AI Research Intern at NewsBreak</p>
+                <p>AI Research Intern at NewsBreak (NLP team)</p>
                 <ul>
-                  <li>NLP team</li>
+                  <li>Explored model context protocols (MCPs) and MCP selection pipelines to expand the functional capabilities of LLMs, deploying features as a Kubernetes service</li>
+                  <li>Developed and deployed new features for NBot, NewsBreak’s AI chatbot, in Python – increased click-through rate by ~50%</li>
+                  <li>Investigated methods for increasing LLM human-likeness through memory</li>
                 </ul>
               </div>
 
@@ -64,7 +66,8 @@
                 <p>NLP Research Assistant with <a href="https://esrg.stanford.edu"
                    target="_blank">Stanford Empirical Security Research Group</a></p>
                 <ul>
-                  <li>Research the spread of narratives between unreliable and reliable news websites</li>
+                  <li>Supervised by Professor Zakir Durumeric and PhD Hans Hanley</li>
+                  <li>NLP research on the spread of online misinformation, emotion features for controversial social media post detection, multilingual stance detection, and narrative differentiation</li>
                 </ul>
               </div>
 
@@ -77,13 +80,12 @@
               <div class="resumeItemText">
                 <p>Intern at Meta (Facebook) University – Engineering</p>
                 <ul>
-                  <li>10-week paid summer internship in iOS development with Objective-C</li>
+                  <li>Summer internship in iOS development</li>
                   <li>
-                    Created a course collaboration iOS app in 6 weeks
+                    Created iOS course collaboration app in 6 weeks with Objective-C
                     (<a href="#coursily">details & demo video here</a>)
                     <ul>
-                      <li>Uses Facebook SDK (OAuth, dynamic fetching from and posting to FB Group),
-                        caching posts, probability algorithm to recommend posts based on search history</li>
+                      <li>Integrated OAuth login, Facebook SDK APIs, and probabilistic text-similarity search for personalized recommendations</li>
                     </ul>
                   </li>
                 </ul>
@@ -99,9 +101,8 @@
                 <p>Stanford Electrical Engineering Teaching Assistant (ENGR 40M)</p>
                 <ul>
                   <li>One of 3-4 undergrad TAs (13 total) for Stanford’s largest EE course (150-200 students)</li>
-                  <li>Lead weekly 3-hour lab sections (5-12 students) – circuit-building and programming</li>
-                  <li>Gradescope (online grading tool) manager, main communicator with homework graders</li>
-                  <li>Hold weekly office hours, grade labs and exams, help students during and after lectures</li>
+                  <li>Led weekly 3-hour lab sections (5-12 students) – circuit-building and programming</li>
+                  <li>Homework grader/Gradescope manager, held weekly office hours, graded labs/exams</li>
                 </ul>
               </div>
 
@@ -109,25 +110,37 @@
                 <p>Jan – Jun 2022</p>
               </div>
             </div>
+          </section>
 
-            <div class="resumeItem">
+          
+
+          <section id="projects">
+            <h1>Projects</h1>
+            <div id="coursily" class="resumeItem">
               <div class="resumeItemText">
-                <p>Intern at Shibaura Institute of Technology</p>
+                <p>Coursily iOS App</p>
                 <ul>
-                  <li>Conducted research in Materials Science and Engineering</li>
-                  <li>Researched the chemical and physical properties of metals such as iron and copper,
-                    materials suitable for use in cutlery and vehicles</li>
+                  <li>
+                    Leveraging Graph Neural Networks for Analyzing User-Bot Engagement on Twitter (CS 224W Project)
+                    <ul>
+                      <li>Exploration of Heterogeneous Graph Attention Network (HAN), GCN, and GAN to perform node classification between humans and bots on Twitter, analyze behavior of bots among human users, and identify bot farms</li>
+                      <li>Achieve accuracy of 0.74 and F1 score of 0.68 using HAN w/ BERT embeddings and focal loss</li>
+                      <li>Significant integration of Facebook SDK – includes login through OAuth,
+                        dynamic fetching/caching of Facebook Group posts</li>
+                      <li>Uses a probability-based text similarity algorithm to recommend viewed posts
+                        to users based on posts that have been searched before</li>
+                      <li>Store data, such as viewed posts and course information, on Parse</li>
+                      <li><a href="https://medium.com/stanford-cs224w/leveraging-graph-neural-networks-for-analyzing-user-bot-engagement-on-twitter-2d588157e354" target="_blank">Link to Medium article</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
 
               <div class="date">
-                <p>Jun – Jul 2019</p>
+                <p>Dec 2024</p>
               </div>
             </div>
-          </section>
-
-          <section id="projects">
-            <h1>Projects</h1>
+            
             <div id="coursily" class="resumeItem">
               <div class="resumeItemText">
                 <p>Coursily iOS App</p>
@@ -159,35 +172,6 @@
 
               <div class="date">
                 <p>Jul – Aug 2022 (6 weeks)</p>
-              </div>
-            </div>
-
-            <div id="otrio" class="resumeItem">
-              <div class="resumeItemText">
-                <p>OTrio board game in C++</p>
-                <ul>
-                  <li>
-                    Personal C++ Project completed during Winter Break of 2020
-                    <ul>
-                      <li>An advanced version of tic-tac-toe (rules described in video below)</li>
-                      <li>Incorporates 2 to 4 players, with any number of them being computer agents with different "personalities" (vary in offensiveness/defensiveness)</li>
-                      <li>
-                        Video Demo:
-                      </li>
-                      <iframe width="600" height="400"
-                        src="https://www.youtube.com/embed/5EHVNMnEQ1w"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write;
-                        encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                      </iframe>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="date">
-                <p>Dec 2020</p>
               </div>
             </div>
           </section>
